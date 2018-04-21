@@ -3,8 +3,9 @@ from setuptools import setup
 
 setup(
     name='git-gerp',
-    version='0.1.0',
+    version='0.1.1',
     description='git grep wrapper for arguments re-ordering, that can use options after filenames',
+    long_description=open('README.rst').read(),
     url='https://github.com/htaketani/git-gerp',
     author='htaketani',
     author_email='h.taketani@gmail.com',
