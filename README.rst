@@ -16,7 +16,7 @@ tail, but you must type in the correct order.
 ::
 
     # original git grep
-    git grep pattern target -l  # NG `fatal: bad flag '-l' used after filename`
+    git grep pattern target -l  # Bad `fatal: bad flag '-l' used after filename`
     git grep -l pattern target  # OK
 
 ``git-gerp`` is allow to use options after patterns and filenames.
